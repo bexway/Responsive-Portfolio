@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header parent parent-between parent-vcenter">
+      <div class="name background-teal marginleft">
+        <h1 class="font-header font-white text-center font-bold font2em">Bex Way</h1>
+      </div>
+      <div class="nav marginright">
+        <ul class="horiz-ul font-general parent parent-vcenter">
+          <!-- float right, list-style none -->
+          <a href="index.html"><li class="horiz-li text-center">About</li></a>
+          <div class="vr margin20"></div>
+          <a href="portfolio.html"><li class="horiz-li">Portfolio</li></a>
+          <div class="vr margin20"></div>
+          <a href="contact.html"><li class="horiz-li">Contact</li></a>
+        </ul>
+      </div>
+    </div>
+    <div class="parent parent-between">
+      <div class="about content-box marginleft margintop padding30">
+        <h2 class="margin-about font-header font-teal font-bold font2em">Contact</h2>
+        <div class="hr-about"></div>
+        <form action="">
+          <form method="post" name="contact_form"
+          action="contact-form-handler.php">
+          <p class="font-general">Name</p>
+          <input class="inputlabelbox" type="text" name="name" placeholder="Your name">
+          <p class="font-general">Email</p>
+          <input class="font-input inputlabelbox" type="text" name="email" placeholder="example@gmail.com">
+          <p class="font-general">Message:</p>
+          <textarea class="inputmessagebox" name="message"></textarea>
+          <input class="button background-teal font-white font-general" type="submit" value="Submit">
+          </form>
+        </form>
+      </div>
+      <div class="connectbox content-box marginright margintop">
+        <h3 class="font-header font-bold font-teal font1p25em">Connect with Me</h3>
+        <div class="hr-connect"></div>
+        <div class="parent parent-around">
+          <a href="https://github.com/bexway"><img class="icon" src="assets/images/github.png" alt=""></a>
+          <a href="https://www.linkedin.com/in/bex-way-b58355124/"><img class="icon" src="assets/images/linkedin.png" alt=""></a>
+          <a href="http://stackoverflow.com/users/6347659/bex-way"><img class="icon" src="assets/images/so.png" alt=""></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer background-dark-gray border-top-teal parent parent-around parent-vcenter">
+      <p class="font-gray fontp825em">&copy Copyright 2017 Bex Way</p>
+    </div>
+  </div>
+</body>
+</html>
