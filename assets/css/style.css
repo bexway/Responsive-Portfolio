@@ -324,6 +324,48 @@ input::placeholder{
   .about{
     width:726px;
     display: block;
+    margin-bottom: 42px;
+  }
+
+  .bio_image{
+    float:left;
+    margin-right: 24px;
+  }
+
+  .connectbox{
+    width: 727px;
+    /*margin-left: 23px;
+    margin-top: 0px;
+    margin-bottom: 42px;*/
+    margin: 0px 23px 42px 23px;
+  }
+
+  .iconbox{
+    justify-content: flex-start;
+  }
+
+  .icon{
+    margin-right: 12px;
+  }
+
+  .marginleft{
+    margin-left: 23px;
+  }
+
+  .marginright{
+    margin-right: 23px;
+  }
+
+  .total-content{
+    min-height: 475px;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 640px) {
+  .about{
+    width:600px;
+    display: block;
     margin-bottom: 59px;
   }
 
