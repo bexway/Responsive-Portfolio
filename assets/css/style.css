@@ -154,6 +154,10 @@
   width: 50px;
 }
 
+.iconbox{
+  justify-content: space-around;
+}
+
 .inputlabelbox{
   width:100%;
   border: 2px solid #ddd;
@@ -320,6 +324,7 @@ input::placeholder{
   .about{
     width:726px;
     display: block;
+    margin-bottom: 59px;
   }
 
   .bio_image{
@@ -327,12 +332,28 @@ input::placeholder{
     margin-right: 24px;
   }
 
+  .connectbox{
+    width: 727px;
+    /*margin-left: 23px;
+    margin-top: 0px;
+    margin-bottom: 42px;*/
+    margin: 0px 23px 42px 23px;
+  }
+
+  .iconbox{
+    justify-content: flex-start;
+  }
+
+  .icon{
+    margin-right: 12px;
+  }
+
   .marginleft{
     margin-left: 23px;
   }
 
   .marginright{
-    margin-right: 23pxpx;
+    margin-right: 23px;
   }
 
   .total-content{
