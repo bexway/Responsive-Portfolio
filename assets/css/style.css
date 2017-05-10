@@ -321,7 +321,8 @@ input::placeholder{
   .about{
     width:727px;
     display: block;
-    margin-bottom: 42px;
+    /*margin-bottom: 42px;*/
+    margin: 23px 23px 42px 23px;
   }
 
   .bio_image{
@@ -383,13 +384,20 @@ input::placeholder{
   }
 
   .header{
-    justify-content: space-around;
+    /*justify-content: space-around;*/
     flex-wrap: wrap;
     height: 155px;
+    align-items: flex-start;
   }
 
   .horiz-li{
-    padding: 0px 3em;
+    padding: 0px 4.6875em;
+  }
+
+  .horiz-ul{
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px auto;
   }
 
   .iconbox{
@@ -417,5 +425,9 @@ input::placeholder{
   .total-content{
     min-height: 475px;
     flex-wrap: wrap;
+  }
+
+  .vr{
+    margin: 0px;
   }
 }
