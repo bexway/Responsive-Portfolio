@@ -120,9 +120,6 @@
 .footer{
   height: 94px;
   width:100%;
-  /*position: absolute;
-  left: 0;
-  bottom: 0;*/
 }
 
 .header {
@@ -322,7 +319,7 @@ input::placeholder{
 
 @media (max-width: 768px) {
   .about{
-    width:726px;
+    width:727px;
     display: block;
     margin-bottom: 42px;
   }
@@ -359,6 +356,7 @@ input::placeholder{
   .total-content{
     min-height: 475px;
     flex-wrap: wrap;
+    justify-content: center;
   }
 }
 
@@ -366,20 +364,32 @@ input::placeholder{
   .about{
     width:600px;
     display: block;
-    margin-bottom: 59px;
+    /*margin-bottom: 59px;*/
+    margin: 23px 23px 42px 23px;
   }
 
   .bio_image{
-    float:left;
-    margin-right: 24px;
+    float:none;
+    display: block;
+    margin: auto;
   }
 
   .connectbox{
-    width: 727px;
+    width: 600px;
     /*margin-left: 23px;
     margin-top: 0px;
     margin-bottom: 42px;*/
     margin: 0px 23px 42px 23px;
+  }
+
+  .header{
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 155px;
+  }
+
+  .horiz-li{
+    padding: 0px 3em;
   }
 
   .iconbox{
@@ -396,6 +406,12 @@ input::placeholder{
 
   .marginright{
     margin-right: 23px;
+  }
+
+  .name{
+    width:100%;
+    margin-left: 0px;
+    height: 90px;
   }
 
   .total-content{
