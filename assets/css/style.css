@@ -279,26 +279,6 @@ input::placeholder{
 @media (max-width: 980px) {
   .about{
     width:420px;
-  }
-
-  .bio_image{
-    float:none;
-    display: block;
-    margin: auto;
-  }
-
-  .marginleft{
-    margin-left: 126px;
-  }
-
-  .marginright{
-    margin-right: 126px;
-  }
-}
-
-@media (max-width: 980px) {
-  .about{
-    width:420px;
     display: block;
   }
 
@@ -315,7 +295,22 @@ input::placeholder{
   .marginright{
     margin-right: 126px;
   }
+
+  .overimage{
+    position:absolute;
+    top:200px;
+    text-align: center;
+    width:100%;
+    height:60px;
+  }
+
+  .portfolio-image{
+    width: 350px;
+    height: 270px;
+  }
 }
+
+
 
 @media (max-width: 768px) {
   .about{
@@ -352,6 +347,23 @@ input::placeholder{
 
   .marginright{
     margin-right: 23px;
+  }
+
+  .overimage{
+    position:absolute;
+    top:165px;
+    text-align: center;
+    width:100%;
+    height:60px;
+  }
+
+  .portfolio-image{
+    width: 310px;
+    height: 235px;
+  }
+
+  .portfolio-square{
+    margin-bottom: 41px;
   }
 
   .total-content{
@@ -420,6 +432,23 @@ input::placeholder{
     width:100%;
     margin-left: 0px;
     height: 90px;
+  }
+
+  .overimage{
+    position:absolute;
+    top:335px;
+    text-align: center;
+    width:100%;
+    height:60px;
+  }
+
+  .portfolio-image{
+    width: 540px;
+    height: 400px;
+  }
+
+  .portfolio-square{
+    margin-bottom: 41px;
   }
 
   .total-content{
